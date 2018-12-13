@@ -32,18 +32,3 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 14px;
 color: #7D7676;
 }
-@media (min-width: 768px) and (max-width: 1024px) {
-	#searchbar span{
-		width: 60%;
-	}
-	#searchbar input{
-		width: 80%;
-	}
-}
-@media only screen and (max-width: 768px){
-	#searchbar span{
-		width: 90%;
-	}
-	#searchbar input{
-		width: 85%;
-	}
