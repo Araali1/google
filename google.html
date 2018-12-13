@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Challenge</title>
+        <script>
+        function SearchForm() {
+            var x = document.forms["searchbar"]["search"].value;
+            if (x == "") {
+                alert("Please, put something to search");
+                return false;
+            }
+        }
+        </script>
+        <link rel="stylesheet" type="text/css" href="assets/google.css">
+    </head>
+    
+    <body>
+        <div id="topbar">
+            <p align="right">
+                <a href="https://mail.google.com" style="color:#7D7676;text-decoration: none">Gmail</a>
+                <a href="https://images.google.com" style="color:#7D7676;text-decoration: none">Images</a>
+            </p>
+        </div>
+        <br>
+
+        <div id="search">
+            
+                        <span style='color: blue'>G</span>
+                        <span style='color: red'>o</span>
+                        <span style='color: yellow'>o</span>
+                        <span style='color: blue'>g</span>
+                        <span style='color: green'>l</span>
+                        <span style='color: red'>e</span>
+                
+            <form id="searchbar" name="searchbar" onsubmit="return SearchForm()" method="post">
+                <br>
+                <input type="text" name="search"  size="75">
+                <br>
+                <input type="submit" value="Google search">
+                <input type="button" value="I'm Feeling Lucky">
+            </form>
+            <br>
+            
+            
+        </div>
+        <br>
+        <div class="footer">
+            <p class="alignleft">
+                <a href="#" style="color: #666; text-decoration: none;">Advertising</a>
+            </p>
+            <p class="alignleft">
+                    <a href="#" style="color: #666; text-decoration: none;">About</a>
+            </p>
+            <p class="alignright">
+                <a href="#" style="color: #666; text-decoration: none;">Privacy</a>
+                <a href="#" style="color: #666; text-decoration: none;">Terms</a>
+                <a href="#" style="color: #666; text-decoration: none;">Settings</a>
+            </p>
+        </div>
+    </body>
+</html>
